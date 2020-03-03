@@ -1,0 +1,23 @@
+{
+  "name": "a2u-vastaus",
+  "version": "1.0.0",
+  "private": true,
+  "license": "ECL-2.0",
+  "author": "Tommi",
+  "scripts": {
+    "start": "nodemon ./bin/www",
+    "test": "jest"
+  },
+  "dependencies": {
+    "debug": "~2.6.9",
+    "dotenv": "^8.2.0",
+    "express": "~4.16.1",
+    "morgan": "~1.9.1",
+    "nodemon": "^2.0.2",
+    "pg": "^7.18.2"
+  },
+  "devDependencies": {
+    "jest": "^25.1.0",
+    "supertest": "^4.0.2"
+  }
+}
