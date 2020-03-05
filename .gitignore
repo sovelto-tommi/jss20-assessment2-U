@@ -9,6 +9,8 @@ pids
 *.seed
 *.pid.lock
 
+sql/*.zip
+
 # Dependency directories
 node_modules/
 
